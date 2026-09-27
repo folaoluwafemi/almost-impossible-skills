@@ -1,0 +1,112 @@
+{
+  "name": "kraddle",
+  "title": "Kraddle Brand Board",
+  "company": "An Almost Impossible company",
+  "boardLabel": "Brand identity · v1.0",
+  "brandLine": "Build what's in your head. Kraddle holds the rest.",
+  "summary": [
+    "Mark: the designer's original, square ends, name in Azeret Mono.",
+    "Type: Young Serif headers, Afacad text, Azeret Mono for the system voice.",
+    "Color: orange leads; green is a small accent for things that held."
+  ],
+  "story": {
+    "headline": "A cradle is where something new is kept safe while it grows.",
+    "body": [
+      "Builders carry a lot in their heads. Kraddle is where the work lives while it takes shape, keeping track of how the project is meant to hold together.",
+      "You shouldn't have to watch over it. You should feel it holding."
+    ]
+  },
+  "hero": {
+    "eyebrow": "Early access",
+    "title": "It did what you asked.",
+    "titleSoft": "It broke what you didn't say.",
+    "sub": "Kraddle knows how your project is meant to work: the patterns it follows, the approaches already ruled out, the parts that can't break. Every change an agent makes stays inside them.",
+    "cta": "Join the waitlist",
+    "placeholder": "you@studio.dev",
+    "nav": ["How it works", "Cloud", "Waitlist"],
+    "done": "held · you're on the list (preview only, nothing was sent)"
+  },
+  "samples": {
+    "body": "Kraddle knows how your project is meant to work: the patterns it follows and the parts that can't break.",
+    "mono": "held · prices stay on the server",
+    "h2": "How Kraddle knows"
+  },
+  "readouts": ["12 HELD", "01 STOP", "SESSION 0042"],
+  "voice": {
+    "title": "agent session",
+    "rows": [
+      {"tag": "you", "text": "add a discount code field to checkout", "tone": "muted"},
+      {"tag": "held", "text": "checkout keeps its step order", "tone": "accent"},
+      {"tag": "stop", "text": "The total is now calculated in the browser.", "tone": "primary"},
+      {"tag": "", "text": "Prices are only calculated on the server here.", "tone": "muted"},
+      {"tag": "held", "text": "all good · 3 files changed", "tone": "accent"}
+    ]
+  },
+  "chips": [
+    {"label": "stopped", "tone": "primary"},
+    {"label": "held", "tone": "accent"},
+    {"label": "asking", "tone": "muted"}
+  ],
+  "loadingLabel": "Joining",
+  "markTitle": "Square ends. Solid and reliable.",
+  "markNote": "Two identical halves, each turned half a turn onto the other, with square ends. The name is one weight step lighter than the mark so both read as the same weight.",
+  "mark": {
+    "viewBox": "132 116 356 390",
+    "center": [310, 310.93],
+    "symmetry": 2,
+    "svg": "<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"83.196\"><path d=\"M376.049 368.843H488.002\"/><path d=\"M243.953 253.021H132\"/><path d=\"M132 368.843H202.824C221.792 368.843 239.783 377.257 251.943 391.815L293.051 441.029C305.211 455.586 323.202 464 342.17 464H376.051\"/><path d=\"M488.002 253.021H417.18C398.212 253.021 380.221 244.607 368.061 230.049L326.953 180.835C314.793 166.278 296.802 157.864 277.834 157.864H243.953\"/></g>"
+  },
+  "wordmark": {
+    "role": "mono",
+    "weight": 800,
+    "tracking": "-0.06em",
+    "transform": "lowercase",
+    "markHeight": "0.82em",
+    "gap": "0.32em",
+    "note": "Mark height is 0.82 × the name's font size; the gap is 0.32 × the font size."
+  },
+  "logoRules": [
+    "Ink on paper, or paper on ink. The logo itself is never orange or green.",
+    "Keep clear space of at least half the mark's width on every side.",
+    "Smallest size: the mark 16px tall on screens. Below that, use the mark without the name.",
+    "Never round the ends, stretch, outline, or add shadows or gradients.",
+    "The name is always lowercase."
+  ],
+  "motifs": {
+    "include": ["turn", "turnstrip", "dotmark", "tile", "readout"],
+    "custom": []
+  },
+  "directions": [
+    {
+      "id": "final",
+      "name": "Kraddle v1",
+      "one": "Warm serif, careful mono, orange-led.",
+      "recommended": true,
+      "radius": "0px",
+      "colorTitle": "Orange leads. Green is the quiet accent.",
+      "typeTitle": "A warm serif, a friendly sans, a careful mono.",
+      "colorNotes": {
+        "primary": {"name": "Kraddle orange", "use": "Buttons, highlights, and when Kraddle steps in."},
+        "ink": {"use": "Mark, headlines, dark surfaces."},
+        "paper": {"use": "Ground."},
+        "graphite": {"use": "Secondary text, faint marks."},
+        "accent": {"name": "Held green", "use": "Small accent, only for \"this held\"."}
+      },
+      "mix": {"paper": 64, "surface": 9, "ink": 16, "graphite": 4, "primary": 6, "accent": 1},
+      "fonts": {
+        "header": {"family": "Young Serif", "google": "Young+Serif", "fallback": "serif", "weight": 400, "tracking": "-0.025em", "note": "One weight, used for every headline."},
+        "body": {"family": "Afacad", "google": "Afacad:wght@400..700", "fallback": "sans"},
+        "mono": {"family": "Azeret Mono", "google": "Azeret+Mono:wght@100..900", "fallback": "mono", "note": "Also sets the name."},
+        "readout": {"family": "Doto", "google": "Doto:wght@400..900", "fallback": "mono"}
+      },
+      "colors": {
+        "light": {"paper": "#EEEEEA", "surface": "#F8F8F6", "ink": "#121212", "graphite": "#6B6B66", "line": "#D3D3CD", "line2": "#BDBDB6",
+                  "primary": "#FF5A1F", "onPrimary": "#121212", "primaryText": "#C4420E", "primaryTint": "#FFE3D8",
+                  "accent": "#3C9A5F", "accentTint": "#DCEADF"},
+        "dark": {"paper": "#111110", "surface": "#1A1A18", "ink": "#EDEDE9", "graphite": "#9A9A94", "line": "#2E2E2B", "line2": "#45453F",
+                 "primary": "#FF6A33", "onPrimary": "#111110", "primaryText": "#FF7A45", "primaryTint": "#3A1D12",
+                 "accent": "#5DBB7F", "accentTint": "#1B2E22"}
+      }
+    }
+  ]
+}
